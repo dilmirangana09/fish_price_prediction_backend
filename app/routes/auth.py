@@ -7,6 +7,7 @@ from app.db.session import get_db
 from app.db.models import User
 from app.core.security import hash_password, verify_password, create_access_token
 
+
 router = APIRouter(prefix="/auth", tags=["auth"])
 
 class RegisterIn(BaseModel):

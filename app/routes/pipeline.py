@@ -959,8 +959,8 @@ def predict_next_week(
                 week=row_week,
                 week_label=week_label,
                 predicted_price=float(predicted_price) if predicted_price not in [None, ""] else None,
-                source_long_file=long_filename,
-                source_prediction_file=filename,
+                # source_long_file=long_filename,
+                # source_prediction_file=filename,
                 is_published=False,
             )
             db.add(db_row)

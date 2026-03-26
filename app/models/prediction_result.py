@@ -21,8 +21,8 @@ class PredictionResult(Base):
 
     predicted_price = Column(Float, nullable=True)
 
-    source_long_file = Column(String(20), nullable=True)
-    source_prediction_file = Column(String(20), nullable=True)
+    # source_long_file = Column(String(255), nullable=True)
+    # source_prediction_file = Column(String(255), nullable=True)
 
     is_published = Column(Boolean, default=False)
     published_at = Column(DateTime, nullable=True)
