@@ -58,3 +58,5 @@ scipy
 joblib
 requests
 openpyxl
+pydantic[email]
+email-validator
