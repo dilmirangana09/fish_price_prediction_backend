@@ -60,3 +60,4 @@ requests
 openpyxl
 pydantic[email]
 email-validator
+cryptography
