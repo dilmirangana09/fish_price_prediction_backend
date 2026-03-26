@@ -8,8 +8,8 @@ class ModelVersion(Base):
 
     id = Column(Integer, primary_key=True, index=True)
 
-    model_name = Column(String, nullable=False)
-    version_name = Column(String, nullable=False)
+    model_name = Column(String(50), nullable=False)
+    version_name = Column(String(50), nullable=False)
 
     mae = Column(Float)
     rmse = Column(Float)
