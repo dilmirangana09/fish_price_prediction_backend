@@ -1,0 +1,47 @@
+{
+  "lastUploadDate": "2026-03-25",
+  "lastUploadedFilename": "1st_week_of_November_2025.csv",
+  "fishCount": 30,
+  "lastMergedEditableFilename": "merged_editable_temp.csv",
+  "lastMergedFilename": "master_merged.csv",
+  "lastWeekLabel": "1st week of November 2025",
+  "lastFilteredFilename": "filtered_50pct_20260325_230547.csv",
+  "lastFilteredSummaryFilename": "filtered_summary_20260325_230547.csv",
+  "lastInterpolatedFilename": "interpolated_20260325_230550.csv",
+  "lastLongFilename": "fish_prices_long_20260325_230553.csv",
+  "lastPreprocessDate": "2026-03-25",
+  "lastModelStatus": "Ready",
+  "lastModelName": "Hybrid_ANN_XGBoost",
+  "lastModelTrainedAt": "2026-03-22 12:25:05",
+  "lastModelMetrics": {
+    "ANN": {
+      "MAE": 68.69284592714118,
+      "RMSE": 101.91240667876492,
+      "MAPE": 4.521974496736321,
+      "R2": 0.9845136044335856
+    },
+    "XGBoost": {
+      "MAE": 75.45428093219626,
+      "RMSE": 105.50847633576285,
+      "MAPE": 4.929092379647588,
+      "R2": 0.9834014200129843
+    },
+    "Hybrid_ANN_XGBoost": {
+      "MAE": 68.41799384220714,
+      "RMSE": 100.725101435234,
+      "MAPE": 4.489245982648309,
+      "R2": 0.9848723433193213
+    }
+  },
+  "lastPredictionFilename": "hybrid_predictions_20260325_230648.csv",
+  "lastPredictionBatchId": "f04c5843444f4079919678f27cd16b7a",
+  "lastPredictionDate": "2026-03-25 23:06:48",
+  "lastPublishedBatchId": "f04c5843444f4079919678f27cd16b7a",
+  "lastPublishedAt": "2026-03-25 23:06:51",
+  "lastModelSource": "Colab",
+  "lastModelWeights": {
+    "ANN": 0.7,
+    "XGBoost": 0.3
+  },
+  "lastModelAnnAlpha": 0.6
+}

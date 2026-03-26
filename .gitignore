@@ -1,0 +1,32 @@
+# Python
+backend/.venv312/
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML artifacts
+backend/uploads/
+backend/app/ml/artifacts/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
